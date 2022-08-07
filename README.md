@@ -20,7 +20,7 @@ Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 ![](https://img.shields.io/bower/v/editor.md.svg)
 
 ## Desarrollador ##
- - Miguel Roman
+ - :arrow_right: Miguel Roman
 
 --------------------------------------------------------------------------------
 
