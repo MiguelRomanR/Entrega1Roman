@@ -16,10 +16,7 @@ Trabajo de CODER HOUSE llamado My Personal Portfolio
 ## Desarrollador ##
  - Miguel Roman
 
-Busqueda: Se realiza en la pagina principal
-**link del video de la presentacion**
-
-https://youtu.be/Wm0Kn1QYVT4
+--------------------------------------------------------------------------------
 
 **Tabla de Contenidos**
 
