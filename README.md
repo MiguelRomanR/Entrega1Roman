@@ -25,7 +25,7 @@ Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 
 ## **Tabla de Contenidos**
 
-Al ejecutar el proyecto {python manage.py runserver} no llevara a:
+Al ejecutar el proyecto :arrow_forward:{ python manage.py runserver } no llevara a:
   - 1 Página de bienvenida.
     - 1.1. Ingresar un nombre de usuario.
     - 1.2. Ingresar un correo electronico.
