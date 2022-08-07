@@ -2,7 +2,7 @@
 Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 
 
-### Requerimientos
+### 🛠 &nbsp;Requerimientos
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
 ![version :3.10.1](https://img.shields.io/badge/version-3.10.1-informational)\
