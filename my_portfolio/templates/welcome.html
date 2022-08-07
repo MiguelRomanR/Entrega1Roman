@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Welcome |</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h1 span{
+        background-color: rgb(246, 232, 232);
+        font-family:'Courier New', Courier, monospace;
+        font-size: 42px;
+    }
+    a.button {
+        background-color: #008CBA; /* Blue*/
+        border:medium;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+        left: 43%;
+    }
+    .center {
+    position: relative;
+    top: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Main|Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/projects/">Portfolio</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="/list_members/">Family Members</a>
+                </li>  -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/">Admin</a>
+                </li>               
+            </ul>            
+        </div>
+    </nav>
+
+    <h1><span>Hola</span></h1>
+    <h1><span>xxxxxxxxxxxxxxxxxxxxxxxxx</span></h1>
+    <a href="/projects/" class="button">Go to My Portfolio</a>
+
+    <img src="static/img/portfolio.png" alt="Main Picture" style="width:500px;height:400px;" class="center">
+
+</body>
+</html>
