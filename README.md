@@ -6,6 +6,7 @@ Trabajo de CODER HOUSE llamado My Personal Portfolio
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)\
   [python --version: Python 3.10.1]\
+  ![version :3.10.1](https://img.shields.io/badge/version-3.10.1-informational)
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django&logoColor=092E20)\
  [django-admin --version: 4.1]\
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)\
