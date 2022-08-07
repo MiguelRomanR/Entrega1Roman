@@ -5,7 +5,7 @@ Trabajo de CODER HOUSE llamado My Personal Portfolio
 ### Requerimientos
 
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)\
-[python --version: Python 3.10.1]\
+####[python --version: Python 3.10.1]\
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django&logoColor=092E20)\
 [django-admin --version: 4.1]\
 ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)\
