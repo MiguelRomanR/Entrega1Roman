@@ -12,11 +12,6 @@ Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)\
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
 
-# ReadMe.md
-
-![](Beers.png)
-
-![](https://img.shields.io/bower/v/editor.md.svg)
 
 ## Desarrollador ##
  - :arrow_right: Miguel Roman
