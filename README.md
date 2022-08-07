@@ -1,4 +1,4 @@
-# 👋 :wave:	Hello there !
+# :wave: Hello there !
 Trabajo de CODER HOUSE llamado My Personal Portfolio
 
 
