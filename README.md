@@ -1,5 +1,5 @@
 # :wave: Hello there !
-Trabajo de CODER HOUSE llamado My Personal Portfolio
+Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 
 
 ### Requerimientos
