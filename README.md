@@ -21,11 +21,10 @@ Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 
 ## **Tabla de Contenidos**
 
-Al ejecutar el proyecto :arrow_forward:{ python manage.py runserver } no llevara a:
+Al ejecutar el proyecto :arrow_forward:{ python manage.py runserver } nos llevara a:
   - 1.- Página de bienvenida.
-    - 1.1. xxxxxxxxxxxxxxxxxxxxx.
-    - 1.2. xxxxxxxxxxxxxxxxxxxxx.
-    - 1.3. xxxxxxxxxxxxxxxxxxxxx.
+    - 1.1. La página de bienvenida tiene un *navbar* para el acceso directo a los **proyectos** y al **ADMIN**.
+    - 1.2. Se detalla una breve descripcion del desarrollador.
+    - 1.3. La imagen tambien funciona como link de acceso a los proyectos.
     - 1.4. xxxxxxxxxxxxxxxxxxxxx.
-    - 1.5. xxxxxxxxxxxxxxxxxxxxx.
   
