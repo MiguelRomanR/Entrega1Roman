@@ -22,7 +22,7 @@ Este es el Trabajo Final de CODER HOUSE llamado { My Personal Portfolio }
 ## **Tabla de Contenidos**
 
 Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos llevara a:
-  - 1.- Página de bienvenida.
+  - **1.- Página de bienvenida.**
     - 1.1. La página de bienvenida tiene un *navbar* para el acceso directo a los **Portafolio de proyectos** y al **ADMIN**.
     - 1.2. Se detalla una breve descripcion del desarrollador.
     - 1.3. La imagen tambien funciona como link de acceso a los proyectos.
@@ -33,16 +33,23 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     <p align="center">  
        <img src="https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png" width="700" height="350" />
     </p> <br/>
-  - 2.- Página de Admin.
+  - **2.- Página de Admin.**
     - 2.1. La pagina de administracion solo estará disponible para el administrador de la pagina.
     - 2.2. Aqui podremos crear directamente nuevas categorias a nuestros modelos.
     - 2.3. En este ambiente vamos a poder crear, actualizar y elminar instancias de nuestros modelos con una interfaz amigable.
     - 2.4. Pantalla de ADMIN:
-    <!---
-     ![Welcome](https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png)
-    -->
     <p align="center">  
        <img src="https://user-images.githubusercontent.com/104667536/183571946-eddc4671-cde6-4959-8243-223ca0be2568.png" width="700" height="350" />
        <br/>
        <img src="https://user-images.githubusercontent.com/104667536/183572254-4b8025e0-6f11-48fb-8759-b8a77784783f.png" width="700" height="350" />
-    </p>
+    </p> <br/>
+  - **3.- Página del Portafolio.**
+    - 3.1. En esta página se muestran los diferentes proyectos en lo que ha trabajado el usuario.
+    - 3.2. Cada proyecto tiene un botón de READ MORE con el fin de dar mayor detalle del trabajo realizado en cada uno de ellos.
+    - 3.3. Cada proyecto tiene una imagen del trabajo realizado con una breve descripción y las tecnologías utilizadas.
+    - 3.4. Pantalla del portafolio:
+    <p align="center">  
+       <img src="https://user-images.githubusercontent.com/104667536/183571946-eddc4671-cde6-4959-8243-223ca0be2568.png" width="700" height="350" />
+       <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/183572254-4b8025e0-6f11-48fb-8759-b8a77784783f.png" width="700" height="350" />
+    </p> <br/>
