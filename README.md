@@ -26,7 +26,10 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     - 1.1. La página de bienvenida tiene un *navbar* para el acceso directo a los **Portafolio de proyectos** y al **ADMIN**.
     - 1.2. Se detalla una breve descripcion del desarrollador.
     - 1.3. La imagen tambien funciona como link de acceso a los proyectos.
-    - 1.4. xxxxxxxxxxxxxxxxxxxxx.
-    
-    ![Welcome](https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png)
-  
+    - 1.4. Pantalla de bienvenida:
+    <!---
+     ![Welcome](https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png)
+    -->
+    <p align="center">  
+       <img src="https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png" width="700" height="350" />
+    </p>
