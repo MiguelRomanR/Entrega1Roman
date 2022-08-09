@@ -49,7 +49,7 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     - 3.3. Cada proyecto tiene una imagen del trabajo realizado con una breve descripción y las tecnologías utilizadas.
     - 3.4. Pantalla del portafolio:
     <p align="center">  
-       <img src="https://user-images.githubusercontent.com/104667536/183571946-eddc4671-cde6-4959-8243-223ca0be2568.png" width="700" height="350" />
+       <img src="https://user-images.githubusercontent.com/104667536/183575141-104e278e-bb36-4e1a-b035-4b48ebea4509.png" width="700" height="350" />
        <br/>
        <img src="https://user-images.githubusercontent.com/104667536/183572254-4b8025e0-6f11-48fb-8759-b8a77784783f.png" width="700" height="350" />
     </p> <br/>
