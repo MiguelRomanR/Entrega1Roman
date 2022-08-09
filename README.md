@@ -1,5 +1,6 @@
 # :wave: Hello there!!
-Estoy construyendo mi Trabajo Final de CODER HOUSE llamado { My Personal Portfolio } en donde estoy aplicando lo aprendido el curso de Django|Python. En proyecto voy a tratar de resumir algunas de las cosas que he realizado. Con este proyecto quiero diseñar mi propio portafolio con el fin mostrar los trabajos que vengo realizando, ya sea a nivel académico o laboral.
+Estoy construyendo mi Trabajo Final de CODER HOUSE llamado { My Personal Portfolio } en donde estoy aplicando lo aprendido en el curso de Django|Python :snake:. <br/>
+En este proyecto voy a tratar de resumir algunas de las cosas que he realizado y en ese sentido quiero diseñar mi propio portafolio con el fin mostrar los trabajos que vengo realizando, ya sea a nivel académico o laboral.
 
 
 ----
