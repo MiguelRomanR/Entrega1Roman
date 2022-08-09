@@ -27,4 +27,6 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     - 1.2. Se detalla una breve descripcion del desarrollador.
     - 1.3. La imagen tambien funciona como link de acceso a los proyectos.
     - 1.4. xxxxxxxxxxxxxxxxxxxxx.
+    
+    ![Welcome](https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png)
   
