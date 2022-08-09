@@ -34,9 +34,9 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
        <img src="https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png" width="700" height="350" />
     </p> <br/>
   - **2.- Página de Admin.**
-    - 2.1. La pagina de administracion solo estará disponible para el administrador de la pagina.
-    - 2.2. Aqui podremos crear directamente nuevas categorias a nuestros modelos.
-    - 2.3. En este ambiente vamos a poder crear, actualizar y elminar instancias de nuestros modelos con una interfaz amigable.
+    - 2.1. La página de administración solo estará disponible para el administrador de la página.
+    - 2.2. aquí podremos crear directamente nuevas categorías a nuestros modelos.
+    - 2.3. En este ambiente vamos a poder crear, actualizar y eliminar instancias de nuestros modelos con una interfaz amigable.
     - 2.4. Pantalla de ADMIN:
     <p align="center">  
        <img src="https://user-images.githubusercontent.com/104667536/183571946-eddc4671-cde6-4959-8243-223ca0be2568.png" width="700" height="350" />
@@ -45,7 +45,7 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     </p> <br/>
   - **3.- Página del Portafolio.**
     - 3.1. En esta página se muestran los diferentes proyectos en lo que ha trabajado el usuario.
-    - 3.2. Cada proyecto tiene un botón de READ MORE con el fin de dar mayor detalle del trabajo realizado en cada uno de ellos.
+    - 3.2. Cada proyecto tiene un botón de **READ MORE** :page_facing_up: con el fin de dar mayor detalle del trabajo realizado en cada uno de ellos.
     - 3.3. Cada proyecto tiene una imagen del trabajo realizado con una breve descripción y las tecnologías utilizadas.
     - 3.4. Pantalla del portafolio:
     <p align="center">  
