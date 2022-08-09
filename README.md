@@ -32,4 +32,15 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     -->
     <p align="center">  
        <img src="https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png" width="700" height="350" />
+    </p> <br/>
+  - 2.- Página de Admin.
+    - 2.1. La pagina de administracion solo estará disponible para el administrador de la pagina.
+    - 2.2. Aqui podremos crear directamente nuevas categorias a nuestros modelos.
+    - 2.3. En este ambiente vamos a poder crear, actualizar y elminar instancias de nuestros modelos con una interfaz amigable.
+    - 2.4. Pantalla de ADMIN:
+    <!---
+     ![Welcome](https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png)
+    -->
+    <p align="center">  
+       <img src="https://user-images.githubusercontent.com/104667536/183565744-beb16cf0-ad65-41db-85ee-bffa4052e2f4.png" width="700" height="350" />
     </p>
