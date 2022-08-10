@@ -18,3 +18,10 @@ def project_detail(request, pk):
         'project': project
     }
     return render(request, 'project_detail.html', context)
+
+
+def project_search(request):
+    search = request.GET['search']
+    project = Project.objects.filter(title__icontains=search)
+    context = {'project': project}
+    return render(request, 'project_search.html', context=context)

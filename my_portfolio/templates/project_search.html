@@ -1,13 +1,9 @@
 {% extends "base.html" %}
-{% block title %} Project Index {% endblock %}
+{% block title %} Project Search {% endblock %}
 {% load static %}
 
 {% block page_content %}
     <h1>Projects</h1>&nbsp;
-    <form class="form-inline my-2 my-lg-0" action="project_search" method="GET">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" name="search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>&nbsp;
     <div class="row">
         {% for project in projects %}
 
