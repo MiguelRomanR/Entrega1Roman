@@ -2,7 +2,7 @@
 
 {% block page_content %}
 <div class="col-md-8 offset-md-2">
-    <h1>Blog Index</h1>
+    <h1>Personal Blogs</h1>
     <hr>
 
     {% for post in posts %}
@@ -19,8 +19,9 @@
         
         {% endfor %}
     </small>
-    <p>{{ post.body | slice:":400" }}...</p>
-
+    
+    <p style="text-align:justify;">{{ post.body | slice:":400" }}...</p>
+    
     {% endfor %}
 </div>
 
