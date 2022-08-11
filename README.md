@@ -69,11 +69,13 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     - 4.5. Cada blog almacena la historia de los comentarios ingresador por los usuarios.
     - 4.6. Pantallas del blog que describe lo detallado anteriormente:
     <p align="center">  
-       <img src="https://user-images.githubusercontent.com/104667536/183575141-104e278e-bb36-4e1a-b035-4b48ebea4509.png" width="700" height="350" />
+       <img src="https://user-images.githubusercontent.com/104667536/184071845-44b8ed6c-f20c-4a05-b9da-ec277df1c3cf.png" width="700" height="350" />
        <br/>
-       <img src="https://user-images.githubusercontent.com/104667536/183575301-80f3bef7-577f-4051-9ef5-18e48cd78494.png" width="700" height="350" />
+       <img src="https://user-images.githubusercontent.com/104667536/184071899-0c9c5f2a-f13c-4d19-b01c-f787b017622f.png" width="700" height="350" />
        <br/>
-       <img src="https://user-images.githubusercontent.com/104667536/184069170-8aebcfaf-745d-4c39-a29c-1c48bccaa9c9.png" width="700" height="350" />
+       <img src="https://user-images.githubusercontent.com/104667536/184071963-dcf9f704-281f-4dba-975b-3e1ce62c066b.png" width="700" height="350" />
        <br/>
-       <img src="https://user-images.githubusercontent.com/104667536/184069631-05bba75a-fd5b-478f-a4fe-96b69d3ff4d8.png" width="700" height="350" />
+       <img src="https://user-images.githubusercontent.com/104667536/184071989-5706aa8f-1cdb-40c7-978b-3377c32395ad.png" width="700" height="350" />
+       <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/184072050-3d22f35f-1aac-46eb-b0fd-6e375ba54886.png" width="700" height="350" />
     </p> <br/>
