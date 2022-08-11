@@ -6,10 +6,10 @@ from projects.models import Project
 
 def search_projects(request):
     if request.method == "POST":
-        search_title = request.POST['search']
-        project = Project.objects.all().filter(title__icontains=search_title)
+        searched = request.POST['searched']
+        projects = Project.objects.filter(title__icontains=searched)
 
-        return render(request, 'search_projects.html', {'search': search_title, 'project': project})
+        return render(request, 'search_projects.html', {'searched': searched, 'projects': projects})
     else:
         return render(request, 'search_projects.html', {})
 

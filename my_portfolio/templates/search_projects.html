@@ -6,17 +6,15 @@
 
     <center>
         
-    {% if search %}
+    {% if searched %}
 
-        <h1>You Searched For {{search}}</h1>
+        <h1>You Searched For {{searched}}</h1>
         <br/>
         {% for project in projects %}
 
-            <h2><a href="{% url 'project_detail' project.pk}">{{ project.title }}</a></h2>
-        
-            {{ project.title }}
-        
-            
+        <a href="{% url 'project_detail' project.pk %}"class="btn btn-primary">
+            Read More
+            {{ project }}</a><br/>
         {% endfor %}
 
     {% else %}
