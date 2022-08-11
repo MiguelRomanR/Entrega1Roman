@@ -50,7 +50,24 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
     - 3.2. Cada proyecto tiene un botón de **READ MORE** :page_facing_up: con el fin de dar mayor detalle del trabajo realizado en cada uno de ellos.
     - 3.3. Cada proyecto tiene una imagen del trabajo realizado con una breve descripción y las tecnologías utilizadas.
     - 3.4. La página de los proyectos cuenta con un buscador con el fin de realizar filtros personalizados en el caso que exista demasiada carga visual para el usuario.
-    - 3.5. Pantalla del portafolio:
+    - 3.5. La pagina de Proyectos no mostrará un acceso o botón para Crear, Actualizar o Elimanar. Está solo será de lectura para los usuarios.
+    - 3.6. Pantalla del portafolio:
+    <p align="center">  
+       <img src="https://user-images.githubusercontent.com/104667536/183575141-104e278e-bb36-4e1a-b035-4b48ebea4509.png" width="700" height="350" />
+       <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/183575301-80f3bef7-577f-4051-9ef5-18e48cd78494.png" width="700" height="350" />
+       <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/184069170-8aebcfaf-745d-4c39-a29c-1c48bccaa9c9.png" width="700" height="350" />
+       <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/184069631-05bba75a-fd5b-478f-a4fe-96b69d3ff4d8.png" width="700" height="350" />
+    </p> <br/>
+- **4.- Página del Blog.**
+    - 4.1. En esta pagina se muestran los diferentes temas de interés del creador del portafolio con el propósito de mostrar a mayor detalle cada hilo en su entorno personal y profesional.
+    - 4.2. Al ingresar a esta pagina, se muestran los diferentes BLOGS que el adminstrador ha creado.
+    - 4.3. Cada blog o tema indica su fecha de creación y adicionalmente tiene un link para ingresar a la categoria del tema con el fin de encontrar mas post relacionados.
+    - 4.4. Cada blog cuenta con un formulario para ingresar comentarios donde el usuario podrá registrar su nombre y detallar su opinión personal.
+    - 4.5. Cada blog almacena la historia de los comentarios ingresador por los usuarios.
+    - 4.6. Pantallas del blog que describe lo detallado anteriormente:
     <p align="center">  
        <img src="https://user-images.githubusercontent.com/104667536/183575141-104e278e-bb36-4e1a-b035-4b48ebea4509.png" width="700" height="350" />
        <br/>
