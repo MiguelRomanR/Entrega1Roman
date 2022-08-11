@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %} Project Search {% endblock %}
+{% load static %}
+
+{% block page_content %}
+
+    <center>
+        
+    {% if search %}
+
+        <h1>You Searched For {{search}}</h1>
+        <br/>
+        {% for project in projects %}
+
+            <h2><a href="{% url 'project_detail' project.pk}">{{ project.title }}</a></h2>
+        
+            {{ project.title }}
+        
+            
+        {% endfor %}
+
+    {% else %}
+
+        <h1>Hey! You Forgot To Search For a Project...</h1>
+
+    {% endif %}
+
+    </center>
+
+{% endblock %}
