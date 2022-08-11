@@ -56,3 +56,5 @@ Al ejecutar el proyecto :arrow_forward: { python manage.py runserver } nos lleva
        <br/>
        <img src="https://user-images.githubusercontent.com/104667536/183575301-80f3bef7-577f-4051-9ef5-18e48cd78494.png" width="700" height="350" />
     </p> <br/>
+       <img src="https://user-images.githubusercontent.com/104667536/184069170-8aebcfaf-745d-4c39-a29c-1c48bccaa9c9.png" width="700" height="350" />
+    </p> <br/>
