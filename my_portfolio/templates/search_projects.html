@@ -13,8 +13,8 @@
         {% for project in projects %}
 
         <a href="{% url 'project_detail' project.pk %}"class="btn btn-primary">
-            Read More
-            {{ project }}</a><br/>
+            <strong>Read More about:</strong> 
+            <h6 style="color: #2ecc71">{{ project }}</h6></a>&nbsp;
         {% endfor %}
 
     {% else %}
