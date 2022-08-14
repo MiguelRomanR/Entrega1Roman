@@ -11,6 +11,35 @@
 </head>
 
 <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: linear-gradient(120deg,#31B7C2,#7BC393);
+    }
+    nav{
+        background-image: linear-gradient(250deg,#31B7C2,#7BC393);
+        position: relative;
+        margin: 10px auto 0;
+        width: 335px;
+        /* height: 45px; */
+        border-radius: 20px;
+        font-size: 0;
+        box-shadow: 0 10px 25px 0 rgba(0,0,0,.1);
+    }
+    nav a{
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+    }
     h1{
         text-align: center;
     }
@@ -50,19 +79,19 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="/projects/">Portfolio</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="/blog/">Blogs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/admin/">Admin</a>
-                </li>               
-            </ul>            
+                </li>
+            </ul>
         </div>
     </nav>
-
+    <br>
     <h1><span>Hola ✌️</span></h1>
     <h1><span>Me llamo Miguel Roman</span></h1> <br>
     <h2><span> Actualmente me encuentro cursando el curso de Django|Python con <u>CoderHouse</u>. <br>Con este proyecto quiero diseñar mi propio portafolio con el fin de <br>mostrar los trabajos que vengo realizando, ya sea a nivel académico o laboral.</span></h2>
