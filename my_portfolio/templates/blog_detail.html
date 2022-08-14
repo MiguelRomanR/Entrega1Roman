@@ -1,7 +1,19 @@
 {% extends "base.html" %}
-{% block title %} Blogs {% endblock %}
+{% block title %} Blogs | Detail{% endblock %}
 
 {% block page_content %}
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: linear-gradient(120deg,#ece9e6,#ffffff);
+    }
+</style>
+
 <div class="col-md-8 offset-md-2">
     <h1>{{ post.title }}</h1>
     <small>
@@ -17,7 +29,7 @@
         {% endfor %}
     </small>
 
-    <p>{{ post.body | linebreaks }}</p>
+    <p style="text-align:justify;">{{ post.body | linebreaks }}</p>
 
     <h3>Leave a comment:</h3>
 

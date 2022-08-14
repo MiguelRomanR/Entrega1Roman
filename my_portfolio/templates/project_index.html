@@ -4,6 +4,29 @@
 
 {% block page_content %}
 
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: linear-gradient(180deg,#FDFCFB ,#E2D1C3,#d7d2cc);
+    }
+    nav{
+        background-image: linear-gradient(180deg,#d7d2cc,#bdc3c7,#FDFCFB );
+        position: relative;
+        margin: 10px auto 0;
+        width: 565px;
+        /* height: 45px; */
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .card-body{
+        background-image: linear-gradient(195deg,#ada996,#f2f2f2,#dbdbdb,#eaeaea);
+    }
+</style>
+
     <h1>Projects</h1>
     <form class="form-inline my-2 my-lg-0" method=POST action="{% url 'search_projects' %}">
         {% csrf_token %}
@@ -18,7 +41,7 @@
                     <img class="card-img-top" src="{% static project.image %}">
                     <div class="card-body">
                         <h5 class="card-title">{{ project.title }}</h5>
-                        <p style="text-align:justify;" class="card-text">{{ project.description | slice:":400"}}...</p>
+                        <p style="text-align:justify;" class="card-text">{{ project.description | slice:":300"}}...</p>
                         <a href="{% url 'project_detail' project.pk %}"class="btn btn-primary">
                             Read More
                         </a>
