@@ -5,16 +5,18 @@
 {% block page_content %}
 
 <style>
-    *{
+    * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    body{
-        background-image: linear-gradient(180deg,#FDFCFB ,#E2D1C3,#d7d2cc);
+
+    body {
+        background-image: linear-gradient(180deg, #FDFCFB, #E2D1C3, #d7d2cc);
     }
-    nav{
-        background-image: linear-gradient(180deg,#d7d2cc,#bdc3c7,#FDFCFB );
+
+    nav {
+        background-image: linear-gradient(180deg, #d7d2cc, #bdc3c7, #FDFCFB);
         position: relative;
         margin: 10px auto 0;
         width: 565px;
@@ -22,35 +24,40 @@
         border-radius: 20px;
         font-weight: bold;
     }
-    .card-body{
-        background-image: linear-gradient(195deg,#ada996,#f2f2f2,#dbdbdb,#eaeaea);
+
+    .card-body {
+        background-image: linear-gradient(195deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
     }
 </style>
 
-    <h1>Projects</h1>
-    <form class="form-inline my-2 my-lg-0" method=POST action="{% url 'search_projects' %}">
-        {% csrf_token %}
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar proyectos" aria-label="Search" name="searched">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>&nbsp;
-    <div class="row">
-        {% for project in projects %}
+<h1>Proyectos</h1>
 
-            <div class="col-md-4">
-                <div class="card mb-2">
-                    <img class="card-img-top" src="{% static project.image %}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ project.title }}</h5>
-                        <p style="text-align:justify;" class="card-text">{{ project.description | slice:":300"}}...</p>
-                        <a href="{% url 'project_detail' project.pk %}"class="btn btn-primary">
-                            Read More
-                        </a>
-                    </div>
-                </div>
+<form class="form-inline my-2 my-lg-0" method=POST action="{% url 'search_projects' %}">
+    {% csrf_token %}
+    <input class="form-control mr-sm-2" type="search" placeholder="Buscar proyectos" aria-label="Search"
+        name="searched">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+</form>&nbsp;
+
+<div class="row">
+
+    {% for project in projects %}
+
+    <div class="col-md-4">
+        <div class="card mb-2">
+            <img class="card-img-top" src="{% static project.image %}">
+            <div class="card-body">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <p style="text-align:justify;" class="card-text">{{ project.description | slice:":300"}}...</p>
+                <a href="{% url 'project_detail' project.pk %}" class="btn btn-primary">
+                    Leer Mas
+                </a>
             </div>
-
-        {% endfor %}
-        
+        </div>
     </div>
+
+    {% endfor %}
+
+</div>
 
 {% endblock %}

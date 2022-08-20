@@ -4,25 +4,28 @@
 
 {% block page_content %}
 
-    <center>
-        
+<center>
+
     {% if searched %}
 
-        <h1>You Searched For {{searched}}</h1>
-        <br/>
-        {% for project in projects %}
+    <h1>Tu busqueda fue por: {{searched}}</h1><br />
 
-        <a href="{% url 'project_detail' project.pk %}"class="btn btn-primary">
-            <strong>Read More about:</strong> 
-            <h6 style="color: #2ecc71">{{ project }}</h6></a>&nbsp;
-        {% endfor %}
+    {% for project in projects %}
+
+    <a href="{% url 'project_detail' project.pk %}" class="btn btn-primary">
+        <strong>Leer mas:</strong>
+        <h6 style="color: #2ecc71">{{ project }}</h6>
+    </a>&nbsp;
+
+    {% endfor %}
 
     {% else %}
 
-        <h1>Hey! You Forgot To Search For a Project...</h1>
+    <a href="{% url 'project_index' %}">&#x2190; <strong>Regresar</strong></a><br /><br />
+    <h1>Hey! Te haz olvidado de realizar la busqueda de algún proyecto...</h1>
 
     {% endif %}
 
-    </center>
+</center>
 
 {% endblock %}
