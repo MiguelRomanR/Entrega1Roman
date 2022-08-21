@@ -8,7 +8,9 @@
 
     {% if searched %}
 
-    <h1>Tu busqueda fue por: {{searched}}</h1><br />
+    <a href="{% url 'project_index' %}">&#x2190; <strong>Regresar</strong></a><br /><br>
+
+    <h1>Tu busqueda fue por: {{searched}}</h1><br>
 
     {% for project in projects %}
 
@@ -21,7 +23,7 @@
 
     {% else %}
 
-    <a href="{% url 'project_index' %}">&#x2190; <strong>Regresar</strong></a><br /><br />
+    <a href="{% url 'project_index' %}">&#x2190; <strong>Regresar</strong></a><br><br>
     <h1>Hey! Te haz olvidado de realizar la busqueda de algún proyecto...</h1>
 
     {% endif %}

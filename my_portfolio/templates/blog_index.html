@@ -3,16 +3,18 @@
 {% block page_content %}
 
 <style>
-    *{
+    * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    body{
-        background-image: linear-gradient(120deg,#ada996,#f2f2f2,#dbdbdb,#eaeaea);
+
+    body {
+        background-image: linear-gradient(120deg, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
     }
-    nav{
-        background-image: linear-gradient(180deg,#dbdbdb,#eaeaea,#ada996,#f2f2f2);
+
+    nav {
+        background-image: linear-gradient(180deg, #dbdbdb, #eaeaea, #ada996, #f2f2f2);
         position: relative;
         margin: 10px auto 0;
         width: 565px;
@@ -37,12 +39,12 @@
         <a href="{% url 'blog_category' category.name %}">
             {{ category.name }}
         </a>&nbsp;
-        
+
         {% endfor %}
     </small>
-    
+
     <p style="text-align:justify;">{{ post.body | slice:":400" }}...</p>
-    
+
     {% endfor %}
 </div>
 

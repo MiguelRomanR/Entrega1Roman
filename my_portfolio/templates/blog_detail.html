@@ -4,17 +4,19 @@
 {% block page_content %}
 
 <style>
-    *{
+    * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    body{
-        background-image: linear-gradient(120deg,#ece9e6,#ffffff);
+
+    body {
+        background-image: linear-gradient(120deg, #ece9e6, #ffffff);
     }
 </style>
 
 <div class="col-md-8 offset-md-2">
+
     <h1>{{ post.title }}</h1>
     <small>
         {{ post.created_on.date }} |&nbsp;
@@ -31,25 +33,27 @@
 
     <p style="text-align:justify;">{{ post.body | linebreaks }}</p>
 
-    <h3>Leave a comment:</h3>
+    <h3>Deja un comentario:</h3>
 
     <form action="/blog/{{ post.pk }}/" method="post">
         {% csrf_token %}
-        
+
         <div class="form-group">
             {{ form.author }}
         </div>
         <div class="form-group">
             {{ form.body }}
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
-    <h3>Comments:</h3>
+
+    <br>
+    <h3>Comentarios:</h3><br>
 
     {% for comment in comments %}
     <p>
         On {{comment.created_on.date }}&nbsp;
-        <b>{{ comment.author }}</b> wrote:
+        <b>{{ comment.author }}</b> Escribió:
     </p>
     <p>{{ comment.body }}</p>
     <hr>
