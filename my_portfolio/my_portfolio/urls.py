@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from my_portfolio.views import welcome
+from my_portfolio.views import welcome, about_me
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -23,4 +23,5 @@ urlpatterns = [
     path('welcome/', welcome, name='welcome'),
     path("projects/", include("projects.urls")),
     path("blog/", include("blog.urls")),
+    path("aboutme/", about_me, name="aboutme")
 ]
